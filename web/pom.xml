@@ -3,9 +3,12 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.intexsoft</groupId>
   <artifactId>web</artifactId>
-  <packaging>war</packaging>
+  <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>web Maven Webapp</name>
+    <modules>
+        <module>hello</module>
+    </modules>
+    <name>web Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
