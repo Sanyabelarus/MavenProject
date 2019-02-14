@@ -9,7 +9,6 @@
         <module>service</module>
     </modules>
     <name>web Maven Webapp</name>
-  <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -20,7 +19,7 @@
   </dependencies>
   <build>
     <finalName>web</finalName>
-    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+    <pluginManagement>
     <plugins>
       <plugin>
         <groupId>org.apache.tomcat.maven</groupId>
